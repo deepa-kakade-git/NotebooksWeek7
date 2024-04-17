@@ -12,7 +12,11 @@ headers = {
     "Content-Type" : "application/json"
 }
 
-http =  urllib3.PoolManager()
+http =  urllib3.PoolManager() #creates an instance of the PoolManager class from the urllib3
+# library and assigns it to the variable http.
+#urllib3 is a Python library that provides powerful, user-friendly HTTP client functionality.
+#TPoolManager is a class within the urllib3 library that manages a pool of connections to a specific host, allowing
+
 
 response = http.request('GET', url, headers=headers)
 
@@ -24,3 +28,8 @@ for i, jobj in enumerate(data['results']):
     with open(filename, 'w') as f:
         json.dump(jobj, f, indent=4)
 
+# for jobj in data['results']:
+#     #pprint(jobj)
+#     filename = "location.json"  # Generate a fixed filename
+#     with open(filename, 'w') as f:
+#         json.dump(jobj, f, indent=4)
