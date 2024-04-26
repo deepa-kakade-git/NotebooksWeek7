@@ -1,0 +1,54 @@
+{
+    "path": "v2/data",
+    "method": "GET",
+    "parameters": [
+        {
+            "name": "datasetid",
+            "required": false
+        },
+        {
+            "name": "datatypeid",
+            "required": false
+        },
+        {
+            "name": "locationid",
+            "required": false
+        },
+        {
+            "name": "stationid",
+            "required": false
+        },
+        {
+            "name": "startdate",
+            "required": true
+        },
+        {
+            "name": "enddate",
+            "required": true
+        },
+        {
+            "name": "includemetadata",
+            "required": false
+        },
+        {
+            "name": "units",
+            "required": false
+        },
+        {
+            "name": "sortfield",
+            "required": false
+        },
+        {
+            "name": "sortorder",
+            "required": false
+        },
+        {
+            "name": "limit",
+            "required": false
+        },
+        {
+            "name": "offset",
+            "required": false
+        }
+    ]
+}

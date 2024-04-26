@@ -1,0 +1,14 @@
+{
+    "path": "v2/records/summary",
+    "method": "GET",
+    "parameters": [
+        {
+            "name": "datasetid",
+            "required": false
+        },
+        {
+            "name": "type",
+            "required": false
+        }
+    ]
+}

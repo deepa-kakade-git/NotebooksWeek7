@@ -1,0 +1,22 @@
+{
+    "path": "v2/lcd/availablereporttypes",
+    "method": "GET",
+    "parameters": [
+        {
+            "name": "stationid",
+            "required": false
+        },
+        {
+            "name": "locationid",
+            "required": false
+        },
+        {
+            "name": "startdate",
+            "required": true
+        },
+        {
+            "name": "enddate",
+            "required": true
+        }
+    ]
+}

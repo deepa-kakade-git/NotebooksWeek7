@@ -1,0 +1,18 @@
+{
+    "path": "v2/records/potential",
+    "method": "GET",
+    "parameters": [
+        {
+            "name": "locationid",
+            "required": true
+        },
+        {
+            "name": "startdate",
+            "required": true
+        },
+        {
+            "name": "enddate",
+            "required": true
+        }
+    ]
+}

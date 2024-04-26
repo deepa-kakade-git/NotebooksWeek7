@@ -1,0 +1,5 @@
+{
+    "path": "v2/locations/{id}",
+    "method": "GET",
+    "parameters": []
+}

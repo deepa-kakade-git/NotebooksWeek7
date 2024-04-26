@@ -1,0 +1,46 @@
+{
+    "path": "v2/records/data",
+    "method": "GET",
+    "parameters": [
+        {
+            "name": "datasetid",
+            "required": true
+        },
+        {
+            "name": "datatypeid",
+            "required": false
+        },
+        {
+            "name": "locationid",
+            "required": true
+        },
+        {
+            "name": "startdate",
+            "required": true
+        },
+        {
+            "name": "enddate",
+            "required": true
+        },
+        {
+            "name": "type",
+            "required": false
+        },
+        {
+            "name": "limit",
+            "required": false
+        },
+        {
+            "name": "offset",
+            "required": false
+        },
+        {
+            "name": "sortfield",
+            "required": false
+        },
+        {
+            "name": "sortorder",
+            "required": false
+        }
+    ]
+}

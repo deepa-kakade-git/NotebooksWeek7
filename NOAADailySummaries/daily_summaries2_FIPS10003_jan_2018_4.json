@@ -1,0 +1,50 @@
+{
+    "path": "v2/datasets",
+    "method": "GET",
+    "parameters": [
+        {
+            "name": "datatypeid",
+            "required": false
+        },
+        {
+            "name": "locationid",
+            "required": false
+        },
+        {
+            "name": "stationid",
+            "required": false
+        },
+        {
+            "name": "startdate",
+            "required": false
+        },
+        {
+            "name": "enddate",
+            "required": false
+        },
+        {
+            "name": "available",
+            "required": false
+        },
+        {
+            "name": "legacy",
+            "required": false
+        },
+        {
+            "name": "sortfield",
+            "required": false
+        },
+        {
+            "name": "sortorder",
+            "required": false
+        },
+        {
+            "name": "limit",
+            "required": false
+        },
+        {
+            "name": "offset",
+            "required": false
+        }
+    ]
+}

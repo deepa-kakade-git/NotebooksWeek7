@@ -1,0 +1,5 @@
+{
+    "path": "v2/locationcategories/{id}",
+    "method": "GET",
+    "parameters": []
+}

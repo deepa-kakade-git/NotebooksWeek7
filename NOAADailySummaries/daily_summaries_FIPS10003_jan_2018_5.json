@@ -1,0 +1,5 @@
+{
+    "path": "v2/datasets/{id}",
+    "method": "GET",
+    "parameters": []
+}

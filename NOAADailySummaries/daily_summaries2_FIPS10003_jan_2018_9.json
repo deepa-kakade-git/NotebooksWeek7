@@ -1,0 +1,5 @@
+{
+    "path": "v2/datacategories/{id}",
+    "method": "GET",
+    "parameters": []
+}

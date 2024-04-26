@@ -1,0 +1,5 @@
+{
+    "path": "v2/datatypes/{id}",
+    "method": "GET",
+    "parameters": []
+}
